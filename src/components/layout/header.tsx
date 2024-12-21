@@ -1,38 +1,37 @@
-import Link from "next/link"
-
-import { siteConfig } from "@/config/site"
-import { CommandMenu } from "@/components/command-menu"
-import { Icons } from "@/components/icons"
-import { MainNav } from "@/components/main-nav"
-import { MobileNav } from "@/components/mobile-nav"
-import { ModeSwitcher } from "@/components/mode-switcher"
-import { Button } from "@/registry/new-york/ui/button"
+import { Icon } from "@iconify/react";
 
 export function SiteHeader() {
   return (
-    <header className="border-grid sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container-wrapper">
-        <div className="container flex h-14 items-center">
-          <div className="flex flex-1 items-center justify-between gap-2 md:justify-end">
-            <div className="w-full flex-1 md:w-auto md:flex-none">
-              <CommandMenu />
-            </div>
-            <nav className="flex items-center gap-0.5">
-              <Button variant="ghost" size="icon" className="h-8 w-8 px-0">
-                <Link
-                  href={siteConfig.links.github}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Icons.gitHub className="h-4 w-4" />
-                  <span className="sr-only">GitHub</span>
-                </Link>
-              </Button>
-              <ModeSwitcher />
-            </nav>
+    <header className="sticky top-0 z-50 w-full p-y-2 p-x-5 bg-transparent">
+      <div className="flex items-center justify-center">
+        <div className="container flex h-14 items-center justify-between p-2">
+          {/* 左側按鈕區域 */}
+          <div className="flex space-x-1">
+            <button className="p-1 bg-border hover:bg-primary">
+              <Icon icon="pixelarticons:home" width="18" height="18" />
+            </button>
+            <button className="p-1 bg-border hover:bg-primary">
+              <p className="font-light text-sm">關於我們</p>
+            </button>
+          </div>
+
+          {/* 右側按鈕區域 */}
+          <div className="flex space-x-1">
+            <button className="p-1 bg-border hover:bg-primary">
+              <p className="font-light text-sm">聯繫我們</p>
+            </button>
+            <button className="p-1 bg-border hover:bg-primary">
+              <p className="font-light text-sm">活動與項目</p>
+            </button>
+            <button className="p-1 bg-border hover:bg-primary">
+              <p className="font-light text-sm">新聞與公告</p>
+            </button>
+            <button className="p-1 bg-border hover:bg-primary">
+              <p className="font-light text-sm">加入我們</p>
+            </button>
           </div>
         </div>
       </div>
     </header>
-  )
+  );
 }

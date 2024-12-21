@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { SiteHeader } from "@/components/layout/header";
+import localFont from "next/font/local";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -10,6 +12,14 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const unifont = localFont({
+  src: "../../public/fonts/unifont.ttf",
+  display: "swap",
+  style: "normal",
+  weight: "100 1000",
+  variable: "--font-unifont",
 });
 
 export const metadata: Metadata = {
@@ -25,9 +35,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${unifont.variable} antialiased`}
       >
-        {children}
+        <SiteHeader />
+          {children}
       </body>
     </html>
   );
