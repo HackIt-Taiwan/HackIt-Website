@@ -1,4 +1,5 @@
 import { Icon } from "@iconify/react";
+import Link from "next/link";
 
 export function SiteHeader() {
   return (
@@ -7,28 +8,21 @@ export function SiteHeader() {
         <div className="container flex h-14 items-center justify-between p-2">
           {/* 左側按鈕區域 */}
           <div className="flex space-x-1">
+          <Link href={"/"}>
+
             <button className="p-1 bg-border hover:bg-primary">
               <Icon icon="pixelarticons:home" width="18" height="18" />
             </button>
-            <button className="p-1 bg-border hover:bg-primary">
-              <p className="font-light text-sm">關於我們</p>
-            </button>
+            </Link>
           </div>
 
           {/* 右側按鈕區域 */}
           <div className="flex space-x-1">
-            <button className="p-1 bg-border hover:bg-primary">
-              <p className="font-light text-sm">聯繫我們</p>
-            </button>
-            <button className="p-1 bg-border hover:bg-primary">
-              <p className="font-light text-sm">活動與項目</p>
-            </button>
+            <Link href={"/news"}>
             <button className="p-1 bg-border hover:bg-primary">
               <p className="font-light text-sm">新聞與公告</p>
             </button>
-            <button className="p-1 bg-border hover:bg-primary">
-              <p className="font-light text-sm">加入我們</p>
-            </button>
+            </Link>
           </div>
         </div>
       </div>
