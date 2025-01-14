@@ -18,7 +18,7 @@ const data = [
     title: "使命與願景",
     content: (
       <p className="min-h-[30vh] text-xl md:text-4xl justify-center flex items-center font-unifont hover:scale-105 duration-300">
-        我們致力於為臺灣的高中生創建一個屬於他們的黑客鬆平台，幫助他們發揮創意、挑戰自我，並在合作中提升技能。我們希望每位學生在這裡不僅能夠學習技術，還能體驗團隊合作的力量，開創無限的可能性。
+        我們致力於培養台灣青少年為青少年籌辦黑客松的能力，並在台灣推廣黑客松風氣。透過舉辦活動，培養台灣學生籌辦活動的實務經驗、獨立思考能力，並提升在地學生的程式設計與創新思維。
       </p>
     ),
   },
@@ -26,7 +26,7 @@ const data = [
     title: "目標對象",
     content: (
       <p className="min-h-[30vh] text-xl md:text-4xl justify-center flex items-center font-unifont hover:scale-105 duration-300">
-        我們的目標是針對臺灣的高中生，提供一個展示創意與技術的舞台。在這裡，他們能夠挑戰自我，提升技術能力，同時學習如何在團隊中協作，發掘自己在科技領域的潛力。
+        我們的目標對象是台灣青少年，除了培養他們在活動籌備和組織管理上的實務能力，我們也重視提升他們在不同領域之間協作的技能。透過參與黑客松，學生們不僅能夠拓展科技視野，還能夠在實踐中學習如何整合多元知識，激發創新潛能。
       </p>
     ),
   },
@@ -34,7 +34,7 @@ const data = [
     title: "團隊文化",
     content: (
       <p className="min-h-[30vh] text-xl md:text-4xl justify-center flex items-center font-unifont hover:scale-105 duration-300">
-        團隊文化以創新、合作與挑戰為核心價值。我們鼓勵每位成員提出創意並共同實現，彼此協作，迎接挑戰，並推動不斷的自我突破。這是個充滿活力、充滿潛力的團隊，致力於突破傳統，開創未來。
+        我們是一個學習型組織，強調不斷成長、反思與改進為核心價值。團隊由一群充滿熱情的高中生主導，鼓勵自主學習、互相合作，共同打造一個開放、積極的環境。我們鼓勵每位成員提出創意並共同實現，彼此協作，迎接挑戰，並推動不斷的自我突破。
       </p>
     ),
   },
@@ -42,7 +42,7 @@ const data = [
     title: "我們的目標",
     content: (
       <p className="min-h-[30vh] text-xl md:text-4xl justify-center flex items-center font-unifont hover:scale-105 duration-300">
-        我們的最終目標是讓每一位學生都能在黑客鬆中突破自我，提升技術，並為未來創造更多機會。我們相信，通過這樣的挑戰，學生將能夠在學習過程中找到自己的熱情，並成為未來科技領域的創新者。
+        我們的目標是培養具備創新精神和領導能力的未來科技人才，透過黑客松活動，讓學生在實踐中學會合作、創造與解決複雜問題。我們致力於激發每位學生的潛能，促使他們在科技領域不斷突破自我，為社會發展做出卓越貢獻。
       </p>
     ),
   },

@@ -1,50 +1,10 @@
 {
   "news": [
     {
-      "title": "第一屆黑客松開始招募啦!",
-      "content": "我們很高興宣布第一屆 HackIt 黑客松即將登場！現在開始接受報名，這是一次展現創意與挑戰極限的機會，快來參加吧！",
+      "title": "暫無更多資訊...",
+      "content": "還請敬請期待！",
       "image": "https://via.placeholder.com/300x200.png?text=Hackathon+1",
-      "time": "2024/10/20"
-    },
-    {
-      "title": "技術講座：AI 與未來科技",
-      "content": "我們邀請了業界領先的 AI 專家，來與大家分享最新的技術趨勢與未來發展，讓我們一起探索人工智慧的無限可能！",
-      "image": "https://via.placeholder.com/300x200.png?text=AI+Seminar"
-    },
-    {
-      "title": "第二屆黑客松回顧",
-      "content": "第二屆 HackIt 黑客松取得圓滿成功！來看看參賽者們如何創造出驚人的作品，以及這次活動的精彩花絮！",
-      "image": "https://via.placeholder.com/300x200.png?text=Hackathon+2"
-    },
-    {
-      "title": "學生專題作品展",
-      "content": "本週五將舉行學生專題作品展示會，來欣賞參與 HackIt 的學生們如何將創意轉化為現實的精彩故事。",
-      "image": "https://via.placeholder.com/300x200.png?text=Student+Projects"
-    },
-    {
-      "title": "黑客松贊助商支持公告",
-      "content": "我們感謝本屆黑客松的主要贊助商，為參賽者提供資源與指導，一起推動創新與合作的精神！",
-      "image": "https://via.placeholder.com/300x200.png?text=Sponsors"
-    },
-    {
-      "title": "開發者社群：加入我們！",
-      "content": "HackIt 開發者社群正式成立！現在就加入，獲得與其他開發者交流的機會，並參與我們未來的活動！",
-      "image": "https://via.placeholder.com/300x200.png?text=Community"
-    },
-    {
-      "title": "新一輪線上課程開始了",
-      "content": "HackIt 推出了全新系列線上課程，涵蓋前端、後端及人工智慧基礎，快來充實你的技能吧！",
-      "image": "https://via.placeholder.com/300x200.png?text=Online+Courses"
-    },
-    {
-      "title": "黑客松背後的故事",
-      "content": "黑客松不僅是競賽，更是充滿挑戰與合作的旅程！來看看參與者們的心得分享與成長經歷。",
-      "image": "https://via.placeholder.com/300x200.png?text=Hackathon+Stories"
-    },
-    {
-      "title": "活動開發工具推薦",
-      "content": "想要提升你的開發效率嗎？這些工具是黑客松選手們的必備利器，讓你的創意快速變為現實！",
-      "image": "https://via.placeholder.com/300x200.png?text=Dev+Tools"
+      "time": "2025/02/11"
     }
   ]
 }
