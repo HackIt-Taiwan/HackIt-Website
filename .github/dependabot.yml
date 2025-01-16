@@ -1,4 +1,6 @@
 version: 2
+
+open-pull-requests-limit: 10
 updates:
   - package-ecosystem: "npm"
     directory: "/"
@@ -12,5 +14,6 @@ updates:
     directory: "/"
     commit-message:
       prefix: chore
+      include: scope
     schedule:
       interval: "weekly"
