@@ -35,10 +35,6 @@ export const SparklesCore = (props: ParticlesProps) => {
         fpsLimit: 60,
         interactivity: {
           events: {
-            onClick: {
-              enable: true,
-              mode: "push",
-            },
             onHover: {
               enable: true,
               mode: "bubble",
