@@ -1,8 +1,13 @@
-"use client";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Highlight } from "@/components/ui/hero-highlight";
 import { Icon } from "@iconify/react";
 import newsData from "@/data/news.json";
+import type {Metadata} from "next";
+
+export const metadata: Metadata = {
+  title: "HackIt | News",
+  description: "查看 HackIt 的最新消息"
+}
 
 export default function Home() {
   return (

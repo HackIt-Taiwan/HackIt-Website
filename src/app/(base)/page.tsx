@@ -1,4 +1,3 @@
-"use client";
 import { FlipWords } from "@/components/ui/flip-words";
 import { SparklesCore } from "@/components/ui/sparkles";
 import { Highlight } from "@/components/ui/hero-highlight";
@@ -12,6 +11,12 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import Link from "next/link";
+import type {Metadata} from "next"
+
+export const metadata: Metadata = {
+  title: "HackIt | Hack Into It!",
+  description: "我們致力於培養台灣青少年為青少年籌辦黑客松的能力，並在台灣推廣黑客松風氣。透過舉辦活動，培養台灣學生籌辦活動的實務經驗、獨立思考能力，並提升在地學生的程式設計與創新思維。"
+}
 
 const data = [
   {
