@@ -1,6 +1,6 @@
 "use client";
 import { cn } from "@/lib/utils";
-import { useMotionValue, motion, useMotionTemplate } from "framer-motion";
+import { motion, useMotionTemplate, useMotionValue } from "framer-motion";
 import React from "react";
 
 export const HeroHighlight = ({
@@ -29,14 +29,14 @@ export const HeroHighlight = ({
   return (
     <div
       className={cn(
-        "relative h-[40rem] flex items-center bg-white dark:bg-black justify-center w-full group",
-        containerClassName
+        "group relative flex h-[40rem] w-full items-center justify-center bg-white dark:bg-black",
+        containerClassName,
       )}
       onMouseMove={handleMouseMove}
     >
-      <div className="absolute inset-0 bg-dot-thick-neutral-300 dark:bg-dot-thick-neutral-800  pointer-events-none" />
+      <div className="bg-dot-thick-neutral-300 dark:bg-dot-thick-neutral-800 pointer-events-none absolute inset-0" />
       <motion.div
-        className="pointer-events-none bg-dot-thick-indigo-500 dark:bg-dot-thick-indigo-500   absolute inset-0 opacity-0 transition duration-300 group-hover:opacity-100"
+        className="bg-dot-thick-indigo-500 dark:bg-dot-thick-indigo-500 pointer-events-none absolute inset-0 opacity-0 transition duration-300 group-hover:opacity-100"
         style={{
           WebkitMaskImage: useMotionTemplate`
             radial-gradient(
@@ -76,8 +76,8 @@ export const Highlight = ({
         backgroundSize: "100% 100%",
       }}
       transition={{
-        duration: 2,
-        ease: "linear",
+        duration: 3,
+        ease: [0.35, 0.4, 0.15, 0.9],
         delay: 0.5,
       }}
       style={{
@@ -86,8 +86,8 @@ export const Highlight = ({
         display: "inline",
       }}
       className={cn(
-        `relative inline-block pb-1 px-1  bg-gradient-to-r from-indigo-500 to-purple-500 dark:from-indigo-500 dark:to-purple-500`,
-        className
+        `relative inline-block bg-gradient-to-r from-indigo-500 to-purple-500 px-1 pb-1 dark:from-indigo-500 dark:to-purple-500`,
+        className,
       )}
     >
       {children}
