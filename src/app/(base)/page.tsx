@@ -187,7 +187,7 @@ function NewsSection() {
             </AccordionItem>
           ))}
           <div className="flex justify-center items-center mt-10">
-            <Link href={"news"}>
+            <Link href={"../news"}>
             <button className="bg-card p-2 font-unifont items-center flex space-x-1 hover:bg-primary">
               <p>更多資訊</p>
               <Icon icon="pixelarticons:arrow-right" />
