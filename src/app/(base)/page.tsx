@@ -23,7 +23,7 @@ const data = [
   {
     title: "使命與願景",
     content: (
-      <p className="flex min-h-[30vh] items-center justify-center font-unifont text-xl duration-300 hover:scale-105 md:text-4xl">
+      <p className="font-unifont flex min-h-[30vh] items-center justify-center text-xl duration-300 hover:scale-105 md:text-4xl">
         我們致力於培養台灣青少年為青少年籌辦黑客松的能力，並在台灣推廣黑客松風氣。透過舉辦活動，培養台灣學生籌辦活動的實務經驗、獨立思考能力，並提升在地學生的程式設計與創新思維。
       </p>
     ),
@@ -31,7 +31,7 @@ const data = [
   {
     title: "目標對象",
     content: (
-      <p className="flex min-h-[30vh] items-center justify-center font-unifont text-xl duration-300 hover:scale-105 md:text-4xl">
+      <p className="font-unifont flex min-h-[30vh] items-center justify-center text-xl duration-300 hover:scale-105 md:text-4xl">
         我們的目標對象是台灣青少年，除了培養他們在活動籌備和組織管理上的實務能力，我們也重視提升他們在不同領域之間協作的技能。透過參與黑客松，學生們不僅能夠拓展科技視野，還能夠在實踐中學習如何整合多元知識，激發創新潛能。
       </p>
     ),
@@ -39,7 +39,7 @@ const data = [
   {
     title: "團隊文化",
     content: (
-      <p className="flex min-h-[30vh] items-center justify-center font-unifont text-xl duration-300 hover:scale-105 md:text-4xl">
+      <p className="font-unifont flex min-h-[30vh] items-center justify-center text-xl duration-300 hover:scale-105 md:text-4xl">
         我們是一個學習型組織，強調不斷成長、反思與改進為核心價值。團隊由一群充滿熱情的高中生主導，鼓勵自主學習、互相合作，共同打造一個開放、積極的環境。我們鼓勵每位成員提出創意並共同實現，彼此協作，迎接挑戰，並推動不斷的自我突破。
       </p>
     ),
@@ -47,7 +47,7 @@ const data = [
   {
     title: "我們的目標",
     content: (
-      <p className="flex min-h-[30vh] items-center justify-center font-unifont text-xl duration-300 hover:scale-105 md:text-4xl">
+      <p className="font-unifont flex min-h-[30vh] items-center justify-center text-xl duration-300 hover:scale-105 md:text-4xl">
         我們的目標是培養具備創新精神和領導能力的未來科技人才，透過黑客松活動，讓學生在實踐中學會合作、創造與解決複雜問題。我們致力於激發每位學生的潛能，促使他們在科技領域不斷突破自我，為社會發展做出卓越貢獻。
       </p>
     ),
@@ -66,7 +66,7 @@ export default function Home() {
       </div>
 
       {/* Main Content */}
-      <div className="container relative mx-auto mt-[10vh] flex h-[calc(100vh-10vh-3.5rem)] flex-col justify-start px-5 py-20 md:mt-[20vh] md:h-[calc(100vh-20vh-3.5rem)]">
+      <div className="relative container mx-auto mt-[10vh] flex h-[calc(100vh-10vh-3.5rem)] flex-col justify-start px-5 py-20 md:mt-[20vh] md:h-[calc(100vh-20vh-3.5rem)]">
         <div className="text-left">
           <div className="flex flex-col space-y-5">
             {/* Title Text */}
@@ -75,7 +75,7 @@ export default function Home() {
                 解鎖
                 <FlipWords
                   words={words1}
-                  className="inline-block text-secondary sm:inline"
+                  className="text-secondary inline-block sm:inline"
                 />
                 ，
               </span>
@@ -83,13 +83,13 @@ export default function Home() {
                 駭入
                 <FlipWords
                   words={words2}
-                  className="inline-block text-primary"
+                  className="text-primary inline-block"
                 />
                 !
               </span>
             </div>
             {/* Description Text */}
-            <div className="border-l-8 border-accent p-5 font-unifont text-2xl">
+            <div className="border-accent font-unifont border-l-8 p-5 text-2xl">
               <Highlight className="p-2">
                 學習，創造 —
                 在這裡，我們不僅提升自己的技能，還勇於挑戰新領域，開創無限可能。
@@ -99,13 +99,13 @@ export default function Home() {
         </div>
 
         {/* Scroll Down Button */}
-        <div className="mt-auto flex cursor-pointer select-none flex-col items-center space-y-2 text-center font-unifont text-xl font-semibold">
+        <div className="font-unifont mt-auto flex cursor-pointer flex-col items-center space-y-2 text-center text-xl font-semibold select-none">
           <div>BUILD WHAT YOU WANT WITH US!</div>
           <Icon
             icon="memory:menu-down-fill"
             width="30"
             height="30"
-            className="animate-bounce text-primary"
+            className="text-primary animate-bounce"
           />
         </div>
       </div>
@@ -120,24 +120,24 @@ export default function Home() {
         <NewsSection />
 
         <div className="flex min-h-[40vh] flex-col space-y-10">
-          <div className="flex items-center space-x-5 font-unifont text-3xl md:text-5xl">
-            <Icon icon="memory:box" className="rotate-12 text-primary" />
+          <div className="font-unifont flex items-center space-x-5 text-3xl md:text-5xl">
+            <Icon icon="memory:box" className="text-primary rotate-12" />
             <h1>聯絡我們</h1>
           </div>
 
-          <div className="flex flex-1 flex-col items-center justify-center space-y-10 font-unifont">
-            <div className="flex flex-wrap items-center justify-center space-x-2 break-words text-xl md:text-5xl">
-              <span className="justify-center break-all">WE ALWAYS</span>
-              <span className="justify-center whitespace-nowrap break-normal bg-secondary p-1">
-                WELCOME
+          <div className="font-unifont flex flex-1 flex-col items-center justify-center space-y-10">
+            <div className="flex flex-wrap items-center justify-center space-x-2 text-xl break-words md:text-5xl">
+              <span className="justify-center break-all">WE ARE</span>
+              <span className="bg-secondary justify-center p-1 break-normal whitespace-nowrap">
+                ALWAYS HAPPY
               </span>
               <span className="justify-center break-all">
-                TO CONTACT WITH YOU!
+                TO HEAR FROM YOU!
               </span>
             </div>
             <div className="flex items-end space-x-5 text-3xl md:text-5xl">
-              <button className="flex space-x-5 p-2 hover:text-secondary">
-                <span className="animate-bounce hover:text-secondary">
+              <button className="hover:text-secondary flex space-x-5 p-2">
+                <span className="hover:text-secondary animate-bounce">
                   <Link href={"mailto:contact@hackit.tw"}>
                     contact@hackit.tw
                   </Link>
@@ -158,8 +158,8 @@ export default function Home() {
 function NewsSection() {
   return (
     <div className="flex min-h-[40vh] flex-col space-y-10">
-      <div className="flex items-center space-x-5 font-unifont text-3xl md:text-5xl">
-        <Icon icon="memory:box" className="rotate-12 text-primary" />
+      <div className="font-unifont flex items-center space-x-5 text-3xl md:text-5xl">
+        <Icon icon="memory:box" className="text-primary rotate-12" />
         <h1>最新消息</h1>
       </div>
 
@@ -175,20 +175,20 @@ function NewsSection() {
                 <div>
                   <Icon
                     icon="ri:newspaper-line"
-                    className="rotate-12 text-secondary"
+                    className="text-secondary rotate-12"
                   />
                 </div>
                 <p className="hover:no-underline">{item.title}</p>
               </AccordionTrigger>
               <AccordionContent className="text-lg">
-                <p className="border-l-4 border-accent p-2">{item.content}</p>
+                <p className="border-accent border-l-4 p-2">{item.content}</p>
                 <p>{item.time}</p>
               </AccordionContent>
             </AccordionItem>
           ))}
           <div className="mt-10 flex items-center justify-center">
             <Link href={"../news"}>
-              <button className="flex items-center space-x-1 bg-card p-2 font-unifont hover:bg-primary">
+              <button className="bg-card font-unifont hover:bg-primary flex items-center space-x-1 p-2">
                 <p>更多資訊</p>
                 <Icon icon="pixelarticons:arrow-right" />
               </button>
