@@ -7,22 +7,13 @@ export function SiteHeader() {
       <div className="flex items-center justify-center">
         <div className="container flex h-14 items-center justify-between p-2">
           {/* 左側按鈕區域 */}
-          <div className="flex space-x-1">
-            <Link href={"/"}>
-              <button className="bg-border hover:bg-primary p-1">
-                <Icon icon="pixelarticons:home" width="18" height="18" />
-              </button>
-            </Link>
-          </div>
+          <Link href="/" className="bg-border hover:bg-primary h-fit w-fit p-1">
+            <Icon icon="pixelarticons:home" width="18" height="18" />
+          </Link>
 
-          {/* 右側按鈕區域 */}
-          <div className="flex space-x-1">
-            <Link href={"/news"}>
-              <button className="bg-border hover:bg-primary p-1">
-                <p className="text-sm font-light">新聞與公告</p>
-              </button>
-            </Link>
-          </div>
+          <Link href="/news" className="bg-border hover:bg-primary p-1">
+            <p className="text-sm font-light">新聞與公告</p>
+          </Link>
         </div>
       </div>
     </header>
