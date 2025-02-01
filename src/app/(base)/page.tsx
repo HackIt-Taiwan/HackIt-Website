@@ -99,15 +99,17 @@ export default function Home() {
         </div>
 
         {/* Scroll Down Button */}
-        <div className="font-unifont mt-auto flex cursor-pointer flex-col items-center space-y-2 text-center text-xl font-semibold select-none">
-          <div>BUILD WHAT YOU WANT WITH US!</div>
-          <Icon
-            icon="memory:menu-down-fill"
-            width="30"
-            height="30"
-            className="text-primary animate-bounce"
-          />
-        </div>
+        <Link href="#detail-section" className="mt-auto">
+          <div className="font-unifont flex cursor-pointer flex-col items-center space-y-2 text-center text-xl font-semibold select-none">
+            <div>BUILD WHAT YOU WANT WITH US!</div>
+            <Icon
+              icon="memory:menu-down-fill"
+              width="30"
+              height="30"
+              className="text-primary animate-bounce"
+            />
+          </div>
+        </Link>
       </div>
 
       {/* Target Section */}
