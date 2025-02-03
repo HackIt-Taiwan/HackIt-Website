@@ -64,7 +64,7 @@ importers:
         version: 3.0.1
       tailwindcss-animate:
         specifier: ^1.0.7
-        version: 1.0.7(tailwindcss@4.0.2)
+        version: 1.0.7(tailwindcss@4.0.3)
       three:
         specifier: ^0.173.0
         version: 0.173.0
@@ -109,8 +109,8 @@ importers:
         specifier: ^0.6.11
         version: 0.6.11(prettier-plugin-organize-imports@4.1.0(prettier@3.4.2)(typescript@5.7.3))(prettier@3.4.2)
       tailwindcss:
-        specifier: ^4.0.2
-        version: 4.0.2
+        specifier: ^4.0.3
+        version: 4.0.3
       typescript:
         specifier: ^5.7.3
         version: 5.7.3
@@ -2346,6 +2346,9 @@ packages:
   tailwindcss@4.0.2:
     resolution: {integrity: sha512-cjWQjZEbzQNqH4IiSjRcYg96zjlu+rjzTFkqTc/fN3FNnIU4CoNlQvwCsIomwG/2EPWYT9ysFL1QF6Av3fZeNg==}
 
+  tailwindcss@4.0.3:
+    resolution: {integrity: sha512-ImmZF0Lon5RrQpsEAKGxRvHwCvMgSC4XVlFRqmbzTEDb/3wvin9zfEZrMwgsa3yqBbPqahYcVI6lulM2S7IZAA==}
+
   tapable@2.2.1:
     resolution: {integrity: sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==}
     engines: {node: '>=6'}
@@ -3917,7 +3920,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-module-utils@2.12.0(@typescript-eslint/parser@8.22.0(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.7.0(eslint-plugin-import@2.31.0)(eslint@9.19.0(jiti@2.4.2)))(eslint@9.19.0(jiti@2.4.2)):
+  eslint-module-utils@2.12.0(@typescript-eslint/parser@8.22.0(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.7.0)(eslint@9.19.0(jiti@2.4.2)):
     dependencies:
       debug: 3.2.7
     optionalDependencies:
@@ -3939,7 +3942,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 9.19.0(jiti@2.4.2)
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.12.0(@typescript-eslint/parser@8.22.0(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.7.0(eslint-plugin-import@2.31.0)(eslint@9.19.0(jiti@2.4.2)))(eslint@9.19.0(jiti@2.4.2))
+      eslint-module-utils: 2.12.0(@typescript-eslint/parser@8.22.0(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.7.0)(eslint@9.19.0(jiti@2.4.2))
       hasown: 2.0.2
       is-core-module: 2.16.1
       is-glob: 4.0.3
@@ -4992,11 +4995,13 @@ snapshots:
 
   tailwind-merge@3.0.1: {}
 
-  tailwindcss-animate@1.0.7(tailwindcss@4.0.2):
+  tailwindcss-animate@1.0.7(tailwindcss@4.0.3):
     dependencies:
-      tailwindcss: 4.0.2
+      tailwindcss: 4.0.3
 
   tailwindcss@4.0.2: {}
+
+  tailwindcss@4.0.3: {}
 
   tapable@2.2.1: {}
 
