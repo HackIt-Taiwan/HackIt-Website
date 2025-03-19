@@ -1,10 +1,22 @@
 {
   "news": [
     {
-      "title": "暫無更多資訊...",
-      "content": "還請敬請期待！",
-      "image": "https://via.placeholder.com/300x200.png?text=Hackathon+1",
-      "time": "2025/02/11"
+      "title": "Scrapyard 黑客松圓滿結束！",
+      "content": "感謝所有參賽者的熱情參與和精彩作品！本次黑客松活動已圓滿結束，期待未來與大家再相會。",
+      "image": "https://via.placeholder.com/300x200.png?text=Success",
+      "time": "2025/03/20"
+    },
+    {
+      "title": "Scrapyard 黑客松的直播上線了!",
+      "content": "歡迎至 YouTube 來觀看直播！",
+      "image": "https://via.placeholder.com/300x200.png?text=Livestream",
+      "time": "2025/03/15"
+    },
+    {
+      "title": "Scrapyard 2025 已開始報名！",
+      "content": "Scrapyard 黑客松已開始報名！若有問題歡迎至 Discord 或是寄信詢問",
+      "image": "https://via.placeholder.com/300x200.png?text=Registration",
+      "time": "2025/02/10"
     }
   ]
 }
